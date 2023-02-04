@@ -34,7 +34,7 @@ name_of_subjects = {}
 total_subjects = {}
 array2 = {}
 count = 0
-for i in range(44):
+for i in range(43):
     for j in range(9):
         if i > 2 and j > 0 and (not isnan(file[i][j])):
             total_subjects[count] = file[i][j]
@@ -44,7 +44,7 @@ print("Enter your section name: [BCS-**]\n")
 subjects = str(input())
 a = "h"
 count = 0
-for i in range(44):
+for i in range(43):
     for j in range(9):
         a = str(file[i][j])
         if a.find(subjects) != -1:
@@ -58,7 +58,7 @@ for i in range(num):
     print("Enter your Elective name: [ME/Psych etc]\n")
     subject = str(input())
     subject=subject+" "+section
-    for i in range(44):
+    for i in range(43):
         for j in range(9):
             a = str(file[i][j])
             if a.find(subject) != -1:
