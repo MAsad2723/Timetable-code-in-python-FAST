@@ -21,15 +21,15 @@ print("4: Thursday\n")
 print("5: Friday\n")
 day = int(input())
 if day == 1:
-    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable.xlsx', sheet_name='MONDAY')
+    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable V 2.0.xlsx', sheet_name='MONDAY')
 elif day == 2:
-    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable.xlsx', sheet_name='TUESDAY')
+    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable V 2.0.xlsx', sheet_name='TUESDAY')
 elif day == 3:
-    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable.xlsx', sheet_name='WEDNESDAY')
+    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable V 2.0.xlsx', sheet_name='WEDNESDAY')
 elif day == 4:
-    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable.xlsx', sheet_name='THURSDAY')
+    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable V 2.0.xlsx', sheet_name='THURSDAY')
 elif day == 5:
-    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable.xlsx', sheet_name='FRIDAY')
+    file = pd.read_excel('FAST School of Computing - Fall 2023 TimeTable V 2.0.xlsx', sheet_name='FRIDAY')
 
 row, cols = file.shape
 
